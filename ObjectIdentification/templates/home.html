@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Object Identification</title>
+</head>
+    <body>
+        <h1>Upload your image..</h1>
+        <form action="imageupload/imageprocess" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <input id="image" type="file" name="image"/>
+            <input type="submit" name="Check">
+        </form>
+    </body>
+
+</html>
