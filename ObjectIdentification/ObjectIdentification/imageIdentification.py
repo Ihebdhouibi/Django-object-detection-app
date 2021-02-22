@@ -17,4 +17,4 @@ plt.interactive(True)
 print(img)
 
 plt.imshow(img)
-#n = input('give me a number rabk ! ')
+plt.waitforbuttonpress()
